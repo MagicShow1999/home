@@ -18,6 +18,7 @@ const API = "https://api.github.com";
 // const specficQuerry = "https://api.github.com/repos/hashirshoaeb/";
 
 const Project = ({ heading, username, length, specfic }) => {
+  const specificRepoList = ["fall-2019-restaurant-reviews", "Second-Hand-Transaction-Webapp-for-NYU-Students", "CV-Final-Project"];
   const allReposAPI = `${API}/users/${username}/repos?sort=updated&direction=desc`;
   const specficReposAPI = `${API}/repos/${username}`;
   const dummyProjectsArr = new Array(length + specfic.length).fill(
@@ -30,12 +31,12 @@ const Project = ({ heading, username, length, specfic }) => {
     let repoList = [];
     try {
       // getting all repos
-      const response = await axios.get(allReposAPI);
+      // const response = await axios.get(allReposAPI);
       // slicing to the length
-      repoList = [...response.data.slice(0, length)];
+      // repoList = [...response.data.slice(0, length)];
       // adding specified repos
       try {
-        for (let repoName of specfic) {
+        for (let repoName of specificRepoList) {
           const response = await axios.get(`${specficReposAPI}/${repoName}`);
           repoList.push(response.data);
         }
@@ -48,7 +49,7 @@ const Project = ({ heading, username, length, specfic }) => {
     } catch (error) {
       console.error(error.message);
     }
-  }, [allReposAPI, length, specfic, specficReposAPI]);
+  }, [allReposAPI, length, specificRepoList, specficReposAPI]);
 
   useEffect(() => {
     fetchRepos();

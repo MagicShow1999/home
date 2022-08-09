@@ -21,7 +21,7 @@ const mainBody = {
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/",
+      url: "https://www.linkedin.com/in/haodong-wu-02ba69160/",
     },
   ],
 };
@@ -47,7 +47,7 @@ const about = {
   imageSize: 375,
   message:
     "Hi there, my name is Haodong Wu. I’m a second-year graduate student at NYU, studying computer science.",
-  resume: "",
+  resume: require("../editable-stuff/Resume-Haodong.pdf"),
 };
 
 // PROJECTS SECTION
@@ -69,18 +69,18 @@ const leadership = {
   heading: "Leadership",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/avatar.jpeg"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/avatar.jpeg"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
+  // images: [
+  //   { 
+  //     img: require("../editable-stuff/hashirshoaeb.png"), 
+  //     label: "First slide label", 
+  //     paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+  //   },
+  //   { 
+  //     img: require("../editable-stuff/hashirshoaeb.png"), 
+  //     label: "Second slide label", 
+  //     paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+  //   },
+  // ],
   imageSize: {
     width:"615",
     height:"450"
@@ -102,14 +102,13 @@ const skills = {
     { name: "C#", value: 50 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Hard-working", value: 90 },
+    { name: "Collaboration", value: 95 },
+    { name: "Communication", value: 85 },
+    { name: "Adaptability", value: 80 },
+    { name: "Problem Solving", value: 95 },
+    { name: "Time management", value: 95 },
+    { name: "Creativity", value: 60 },
   ],
 };
 
@@ -119,7 +118,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+  email: "haodong.wu1999@gmail.com",
 };
 
 const experiences = {
