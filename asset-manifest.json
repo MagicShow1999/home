@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.f5497eb8.chunk.css",
-    "main.js": "/home/static/js/main.e32b6366.chunk.js",
-    "main.js.map": "/home/static/js/main.e32b6366.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
-    "static/js/2.a36119b8.chunk.js": "/home/static/js/2.a36119b8.chunk.js",
-    "static/js/2.a36119b8.chunk.js.map": "/home/static/js/2.a36119b8.chunk.js.map",
-    "index.html": "/home/index.html",
-    "precache-manifest.c09ae01f2c3a410848d9e4c55e850725.js": "/home/precache-manifest.c09ae01f2c3a410848d9e4c55e850725.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/main.f5497eb8.chunk.css.map": "/home/static/css/main.f5497eb8.chunk.css.map",
-    "static/js/2.a36119b8.chunk.js.LICENSE.txt": "/home/static/js/2.a36119b8.chunk.js.LICENSE.txt",
-    "static/media/Resume-Haodong.pdf": "/home/static/media/Resume-Haodong.ff63e0f8.pdf",
-    "static/media/avatar.jpeg": "/home/static/media/avatar.f4b1fee3.jpeg",
-    "static/media/resume.pdf": "/home/static/media/resume.ff63e0f8.pdf"
+    "main.css": "/personal-website/static/css/main.f5497eb8.chunk.css",
+    "main.js": "/personal-website/static/js/main.2adf8aa1.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.2adf8aa1.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.58b4746e.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.58b4746e.js.map",
+    "static/js/2.a36119b8.chunk.js": "/personal-website/static/js/2.a36119b8.chunk.js",
+    "static/js/2.a36119b8.chunk.js.map": "/personal-website/static/js/2.a36119b8.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "precache-manifest.bb2a043d3852c7fb3683b54d85879048.js": "/personal-website/precache-manifest.bb2a043d3852c7fb3683b54d85879048.js",
+    "service-worker.js": "/personal-website/service-worker.js",
+    "static/css/main.f5497eb8.chunk.css.map": "/personal-website/static/css/main.f5497eb8.chunk.css.map",
+    "static/js/2.a36119b8.chunk.js.LICENSE.txt": "/personal-website/static/js/2.a36119b8.chunk.js.LICENSE.txt",
+    "static/media/Resume-Haodong.pdf": "/personal-website/static/media/Resume-Haodong.ff63e0f8.pdf",
+    "static/media/avatar.jpeg": "/personal-website/static/media/avatar.f4b1fee3.jpeg",
+    "static/media/resume.pdf": "/personal-website/static/media/resume.ff63e0f8.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c590061.js",
+    "static/js/runtime-main.58b4746e.js",
     "static/js/2.a36119b8.chunk.js",
     "static/css/main.f5497eb8.chunk.css",
-    "static/js/main.e32b6366.chunk.js"
+    "static/js/main.2adf8aa1.chunk.js"
   ]
 }
